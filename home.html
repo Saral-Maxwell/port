@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="PortfolioDP.jpeg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url(blank-black-corporate-stationery-on-600nw-1051434977.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #1c1c1c 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            margin: 0;
+            padding: 0;
+        }
+        header li {
+            list-style: none;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .showcase {
+            min-height: 400px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .showcase h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background: #e8491d;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #333;
+        }
+        .main-col {
+            float: left;
+            width: 70%;
+            padding: 20px;
+            background: #fff;
+            margin-top: 200px;
+        }
+        .sidebar {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            background: #f4f4f4;
+            margin-top: 200px;
+        }
+        .project {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Portfolio</h1>
+            </div>
+            <nav>
+                <a href="#top">
+                <ul>
+                    <li><a href="#bm" class="current">About Me</a></li>
+                    <li><a href="#pr">Projects</a></li>
+                    <li><a href="#bm">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am passionate about creating meaningful projects.</p>
+            <a href="Carousel.html" class="button">View Projects</a>
+        </div>
+    </section>
+
+    <section class="container main-col" id="projects">
+        <a name="pr">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Made a <strong>Front end</strong> Webpage</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Launched my very own first website</p>
+        </div>
+        </a>
+        <a href="#top">Go to top</a>
+    </section>
+    <aside class="sidebar">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>It whould be an honor to read let you read this, I'm Max I'm 18 years old
+                my hobby is to play music and I'm taking part time music class my skills are can do more 
+                programing languages and can finish it and give it to you at before the dead line 
+                <br><br>THANK YOU 
+            </p>
+            <h2>Contact Information</h2>
+            <ul>
+                <a name="bm">
+                <li>Email:<a href="https://myaccount.google.com/?hl=en_GB&authuser=0&utm_source=OGB&utm_medium=act"> saralmaxwell.62005@gmail.com</a></li>
+                <li>Phone: 8925700625</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/saral-maxwell-73a874310/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bsb2tXk2PQZWKJHcaLJH%2BZg%3D%3D">My LinkedIn Profile</a></li>
+                </a>
+            </ul>
+            <a href="#top">Go to top</a>
+        </div>
+    </aside>
+        <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
